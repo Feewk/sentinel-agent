@@ -3,3 +3,6 @@ out/
 cache/
 broadcast/
 lib/reactive-lib-omni/
+video/slide-*.png
+video/concat.txt
+agent/service.log
