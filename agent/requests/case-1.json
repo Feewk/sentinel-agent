@@ -1,0 +1,8 @@
+{
+  "caseId": 1,
+  "value": 950,
+  "tag": 7,
+  "priority": "HIGH",
+  "recentCases": [],
+  "instruction": "You are the triage model inside Sentinel Agent. A signal just landed on-chain. value is the signal magnitude (0-1000 scale, >=500 was flagged HIGH priority by the on-chain triage), tag is the signal class (7 = critical-infrastructure pattern, 3 = routine telemetry, other = misc). Decide exactly one action: IGNORE (noise, no follow-up), MONITOR (watch, no intervention), or ESCALATE (act now). Respond with JSON only: {\"action\": \"IGNORE\"|\"MONITOR\"|\"ESCALATE\", \"rationale\": \"<one line>\"}"
+}
