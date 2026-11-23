@@ -13,7 +13,15 @@
   - Beta validation REQUESTED to Workspace Core 2026-11-23 (verdict must be
     pushed to Theta chat per Protokol Dorong Vonis) — awaiting verdict.
   - Demo video: script ready (DEMO-SCRIPT.md), not yet recorded.
-  - BUIDL submit: after Beta verdict + video. Deadline 5 Dec 2026 20:00 UTC.
+  - Beta verdict #102 (Core, 2026-11-23 15:4x WIB): LOLOS DENGAN CATATAN.
+    Note 1 (README decider disclosure) closed same day, commit 623592a.
+  - BUIDL SUBMITTED 2026-11-23 16:00 WIB: https://dorahacks.io/build/51680
+    (id 51680), track Reactive Meets AI, status Under Review. Contacts on
+    form: Telegram @uesrless, Discord uesrless (from user). Video link
+    accepted by the form: raw.githubusercontent.com direct mp4 URL.
+  - Remaining: Sourcify retry (user approval), one live gemini-backend run
+    before deadline if a credential path opens, judging watch.
+    Deadline 5 Dec 2026 20:00 UTC.
 - Decider note: M2 runs used operator backend (supervising LLM) — Gemini
   connector credential is refused inside this side-chat sandbox (403);
   gemini backend exists in agent/agent.py, untested live from here.
