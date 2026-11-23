@@ -71,6 +71,15 @@ on the SentinelReactive page in Reactscan.
 
 ## Proof — the full loop, twice (2026-11-23)
 
+**Decider disclosure (read first):** the two recorded runs below used the
+agent service's `operator` decider backend — a supervising LLM (Claude)
+writing decisions through the exact request/decision file interface the
+service polls (`agent/requests/` → `agent/decisions/`); prompts, raw
+decisions and rationales are preserved in `agent/`. The `gemini` backend
+(`agent/agent.py`, `DECIDER=gemini`) targets the same interface and runs
+anywhere a Gemini API key is available. Either way, the deciding model is a
+real LLM inside the running loop — never the contract, never a script.
+
 ### Scenario A — critical signal `(950, tag 7)` → model decides **ESCALATE**
 
 | Step | Hash |
