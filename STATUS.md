@@ -5,9 +5,9 @@
 - M1 DONE: single hop live, H1–H3 captured (deployments/m1-hashes.md).
 - M2 DONE: two-hop loop + AI agent, 6 hashes × 2 scenarios
   (deployments/m2-hashes.md), executor totalExecuted=2, debt=0.
-- M3 DONE except Sourcify verification (retry blocked on user approval
-  after a timed-out approval card; reported to user 15:36 WIB).
-  Negative tests 5/5, health-check clean, README complete.
+- M3 DONE: negative tests 5/5, health-check clean, README complete.
+  Sourcify verification completed 2026-11-23 16:35 WIB (after user
+  approval 16:31): all 4 contracts exact_match on sourcify.dev.
 - M4 IN PROGRESS:
   - Public repo LIVE: https://github.com/Feewk/sentinel-agent
   - Beta validation REQUESTED to Workspace Core 2026-11-23 (verdict must be
